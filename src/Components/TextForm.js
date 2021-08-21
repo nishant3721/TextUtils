@@ -57,21 +57,23 @@ export default function TextForm(props) {
             rows="8"
           ></textarea>
         </div>
-        <button className="mx-2 btn btn-primary" onClick={handleUpClick}>
-          Convert to Uppercase
-        </button>
-        <button className="mx-2 btn btn-primary" onClick={handleLowClick}>
-          Convert to Lowercase
-        </button>
-        <button className="mx-2 btn btn-primary" onClick={handleClearText}>
-          Clear Text
-        </button>
-        <button className="mx-2 btn btn-primary" onClick={handleCopyText}>
-          Copy Text
-        </button>
-        <button className="mx-2 btn btn-primary" onClick={handleExtraSpace}>
-          Remove Extra Space
-        </button>
+        <div className="btn-group" role="group" aria-label="Basic example">
+          <button className="btn btn-primary" onClick={handleUpClick}>
+            Convert to Uppercase
+          </button>
+          <button className="btn btn-primary" onClick={handleLowClick}>
+            Convert to Lowercase
+          </button>
+          <button className="btn btn-primary" onClick={handleClearText}>
+            Clear Text
+          </button>
+          <button className="btn btn-primary" onClick={handleCopyText}>
+            Copy Text
+          </button>
+          <button className="btn btn-primary" onClick={handleExtraSpace}>
+            Remove Extra Space
+          </button>
+        </div>
       </div>
       <div
         className="container my-3"
