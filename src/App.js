@@ -1,9 +1,12 @@
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import TextForm from "./Components/TextForm";
+import { useState } from "react";
 // import About from "./Components/About";
 
 function App() {
+  const [DarkMode, setDarkMode] = useState(false);
+
   return (
     <>
       <Navbar title="TextUtils" />
