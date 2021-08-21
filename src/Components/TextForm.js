@@ -57,7 +57,11 @@ export default function TextForm(props) {
             rows="8"
           ></textarea>
         </div>
-        <div className="btn-group" role="group" aria-label="Basic example">
+        <div
+          className="btn-group flex-wrap"
+          role="group"
+          aria-label="Basic example"
+        >
           <button className="btn btn-primary" onClick={handleUpClick}>
             Convert to Uppercase
           </button>
