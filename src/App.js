@@ -4,8 +4,8 @@ import TextForm from "./Components/TextForm";
 import { useState } from "react";
 import Alert from "./Components/Alert";
 import React from "react";
-import About from "./Components/About";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import About from "./Components/About";
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   const [mode, SetMode] = useState(`light`);
